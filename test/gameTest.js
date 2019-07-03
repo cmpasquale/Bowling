@@ -2,8 +2,15 @@
 
 describe("Game", function () {
 
+    // refactor to add function the begin new game before functions
+
+    var game;
+    beforeEach(function(){
+        game = new Game();
+    })
+
     it("can roll a gutter game", function (){
-        var game = new Game();
+    
         for (var i = 0; i < 20; i++){
             game.throws(0)
         }
@@ -11,7 +18,7 @@ describe("Game", function () {
     }
 );
     it("can roll a game of twos", function () {
-        var game = new Game();
+
         for (var i = 0; i < 20; i++) {
             game.throws(2)
         }
