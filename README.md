@@ -24,7 +24,7 @@
     throw does not provide any additional bonus throws.
 _________________
 # To run on your machine
-Clone this Repository.    
+Clone this Repository   
 >**https://github.com/cmpasquale/Bowling.git**
 _________________
 NPM install
