@@ -1,7 +1,7 @@
 
 # An American 10 Pin Bowling Application Score Calculator
 
-- One game of bowling is made up of ten frames.\
+- One game of bowling is made up of ten frames.
 - In each frame, the bowler has two throws to knock down all the pins.
 - Possible results for a frame:
     - Strike (‘X’): the bowler knocks down all 10 pins on the first throw.
