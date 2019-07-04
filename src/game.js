@@ -28,10 +28,11 @@ Game.prototype.playerScore = function () {
         }
         else {
             score += noBonusScore();
-                throwInFrame += 2;
+            throwInFrame += 2;
         }
     
     }
+
     return score;
 
     function strike() {
@@ -52,6 +53,6 @@ Game.prototype.playerScore = function () {
     function noBonusScore() {
         return game.throw[throwInFrame] + game.throw[throwInFrame + 1];
     }
-}
+};
         
     
