@@ -22,3 +22,14 @@
     - These throws count as part of the 10th frame.
     - The process does not repeat – for example, knocking down all 10 pins on a bonus
     throw does not provide any additional bonus throws.
+_________________
+# To run on your machine
+Clone this Repository.    
+>**https://github.com/cmpasquale/Bowling.git**
+_________________
+NPM install
+>Install dependencies
+_________________
+karma start
+>Launch and run tests
+

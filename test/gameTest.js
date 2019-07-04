@@ -35,7 +35,7 @@ describe("Game", function () {
         expect(game.playerScore()).equal(20);
     });
 
-    it("can score of all spares", function () {
+    it("can score a game of all spares", function () {
         throwGame(5, 20);
         game.throws(5);
         expect(game.playerScore()).equal(150);
